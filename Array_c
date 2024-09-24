@@ -1,0 +1,16 @@
+int main()
+{
+    int a[5], i;
+    printf("Enter Array elements: ");
+    for (int i = 0; i < 5; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%d ", a[i]);
+        // do not use &.
+    }
+    return 0;
+}
